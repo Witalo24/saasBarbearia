@@ -45,11 +45,3 @@ exports.login = async (req, res) => {
     }
 }
 
-exports.principal = async (req, res) => {
-    try {
-        res.send("Bem vindo a parina pricipal")
-    }
-    catch (erro) {
-        res.status(500).json({ erro: erro })
-    }
-}
