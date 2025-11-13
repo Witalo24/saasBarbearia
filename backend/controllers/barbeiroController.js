@@ -19,7 +19,6 @@ exports.criar = async (req, res) => {
         res.status(500).json({erro: "Erro ao cadastrar barbeiro"});
     }
 };
-
 exports.excluir = async (req, res) => {
     try{
         const {id} = req.params;
